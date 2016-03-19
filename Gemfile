@@ -9,7 +9,7 @@ gem 'sprockets', '2.11.0'
 gem 'pg', '0.15.1'
 
 group :development, :test do
-  gem 'rspec-rails', '3.3.2'
+  gem 'rspec-rails', '3.3.1'
 #  gem 'guard-rspec', '4.6.0'
 end
 
@@ -18,6 +18,8 @@ group :test do
   gem 'capybara', '2.2.0'
   gem 'libnotify', '0.8.0'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'sass-rails', '4.0.1'
