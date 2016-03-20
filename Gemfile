@@ -13,6 +13,7 @@ gem 'pg', '0.15.1'
 
 group :development, :test do
   gem 'rspec-rails', '3.3.1'
+  gem 'rspec-its'
 #  gem 'guard-rspec', '4.6.0'
 end
 
